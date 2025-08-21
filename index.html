@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="0; URL='index.html'">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maham Zafar Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="fixed-top header">
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <a class="navbar-brand" href="/index.html">Maham Zafar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars" style="color: #FFD43B;"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div id="content" class="flex-grow-1 content1">
+            <div id="mypic">
+                <span>
+                    <img src="/mp.jpeg">
+                </span>
+            </div>
+            <div class="intro">
+                <h2 id="introname">Hi, I'm Maham Zafar</h2>
+                <p id="subline">Computer Science Student | Aspiring Web Developer | Designer</p>
+                <div class="buttongrp1">
+                    <button type="button" id="b1"
+                        onclick="document.querySelector('#projects').scrollIntoView({behavior: 'smooth'})">View
+                        Projects</button>
+                    <button type="button" id="b2"
+                        onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth'})">Contact
+                        Me</button>
+                    <a href="/Maham_Zafar_CV.pdf" target="_blank">
+                        <button type="button" id="b3">View / Download CV</button>
+                    </a>
+
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="content1b" id="aboutme">
+            <div class="about">
+                <h2>About Me</h2>
+                <p id="desc">"I’m a BSCS student passionate about Web Development, and AI."</p>
+                <p id="desc2">I enjoy transforming ideas into interactive digital experiences, whether that’s designing
+                    responsive websites, developing applications, or structuring efficient databases. My academic
+                    journey has helped me sharpen problem-solving skills while exploring diverse areas of technology
+                    including Web Development, Object-Oriented Programming, and Data Science. Currently, I’m developer
+                    who can adapt to different technologies. Beyond coding, I have a curiosity for space exploration,
+                    research, and innovation, which inspires me to think big and approach challenges with creativity.
+                </p>
+            </div>
+        </div>
+        <div id="skills" class="content2">
+            <div class="imgskl">
+                <span>
+                    <img src="/imgskl.png">
+                </span>
+            </div>
+            <div class="skills-section">
+                <h2>My Skills</h2>
+                <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%; background-color: green;">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%; background-color: green;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%; background-color: green;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">C++</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%; background-color: green;">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%; background-color: green;">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Ms Access DBMS</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 65%; background-color: green;">65%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">OOP</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;background-color: green;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">DSA</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%; background-color: green;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JAVA</div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%; background-color: green;">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content3" id="projects">
+            <div class="projects-section">
+                <h2>My Projects</h2>
+                <div class="projectsec">
+                    <div class="project">
+                        <span>
+                            <h3>NeonHueMusic</h3>
+                            <a href="https://github.com/MahamZafar408/NeonHueMusic" target="_blank">
+                                <i class="fa-solid fa-link" ;"></i>
+                            </a>
+
+                        </span>
+                        <p class="project-tech">HTML, CSS (Flexbox), JavaScript</p>
+                        <p class="project-desc">Built a Spotify-inspired web music player with playlist, interactive
+                            controls, dynamic progress bar, real-time song updates, responsive UI, and "About" page with
+                            developer details.</p>
+                        <p class="project-date">July 2025</p>
+                    </div>
+
+                    <div class="project">
+                        <span>
+                            <h3>Library Management System</h3>
+                            <a href="https://github.com/MahamZafar408/Java-Swing-DB-Project" target="_blank">
+                                <i class="fa-solid fa-link" ;"></i>
+                            </a>
+
+                        </span>
+                        <p class="project-tech">Java, Swing, MS Access (UCanAccess)</p>
+                        <p class="project-desc">Developed a desktop system with login/signup, book/author/category
+                            management, MS Access database integration, and user-friendly Swing GUI.</p>
+                        <p class="project-date">May 2025</p>
+                    </div>
+
+                    <div class="project">
+                        <span>
+                            <h3>Travelling Salesman Problem Solver</h3>
+                            <a href="https://github.com/MahamZafar408/MFO-TSP-SFML" target="_blank">
+                                <i class="fa-solid fa-link" ;"></i>
+                            </a>
+                        </span>
+                        <p class="project-tech">C++, SFML, MFO Algorithm</p>
+                        <p class="project-desc">Implemented Moth-Flame Optimization for TSP using real coordinates and
+                            Haversine formula, with SFML GUI for route visualization, distance matrices, and
+                            optimization
+                            tracking.</p>
+                        <p class="project-date">December 2024</p>
+                    </div>
+
+                    <div class="project">
+                        <span>
+                            <h3>Airline Management System</h3>
+                            <a href="https://github.com/MahamZafar408/Airline_Management_System_Project"
+                                target="_blank">
+                                <i class="fa-solid fa-link" ;"></i>
+                            </a>
+                        </span>
+                        <p class="project-tech">C++ (OOP, File Handling, Terminal UI)</p>
+                        <p class="project-desc">Created modular airline management software with classes for flights,
+                            passengers, tickets, luggage, noticeboards, and check-in, using file handling and
+                            color-coded
+                            terminal UI.</p>
+                        <p class="project-date">December 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content4" id="contact">
+            <div class="contact-section">
+                <h2>Contact Me</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p><strong>Email:</strong> <a
+                                href="mailto:mmahamzafar789@gmail.com?subject=Portfolio Inquiry&body=Hello Maham, I saw your portfolio and...">
+                                mmahamzafar789@gmail.com</a></p>
+                        <p><strong>LinkedIn:</strong>
+                            <a href="https://www.linkedin.com/in/maham-zafar-16a40629b/" target="_blank">
+                                www.linkedin.com/in/maham-zafar-16a40629b
+                            </a>
+                        </p>
+                        <p><strong>GitHub:</strong>
+                            <a href="https://github.com/MahamZafar408" target="_blank">
+                                github.com/MahamZafar408
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="contactForm" action="your-server-endpoint" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer class="custom-footer text-center">
+            <p>© 2025 Maham Zafar. All rights reserved.</p>
+            <a href="https://www.linkedin.com/in/maham-zafar-16a40629b/" target="_blank" class="footer-link">
+                <img src="/linkedinlogo.jpg" alt="LinkedIn" style="width:25px; height:auto; margin-right:5px;">
+                LinkedIn
+            </a> |
+            <a href="https://github.com/MahamZafar408" target="_blank" class="footer-link">
+                <img src="/githublogo.jpeg" alt="GitHub" style="width:30px; height:25px; margin-right:5px;">
+                GitHub
+            </a>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <script>
+            const sections = document.querySelectorAll('.content1, .content1b, .content2, .content3, .content4, #content');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    } else {
+                        entry.target.classList.remove('show');
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            sections.forEach(section => observer.observe(section));
+        </script>
+
+
+
+</body>
+
+</html>
